@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ✈️ AirFleet – Next-Gen Flight Booking & Management System
 🚀 Introduction
 Welcome to AirFleet, a comprehensive flight booking and management system developed by Dawood Hussain and myself. This system ensures seamless operations for Admin, Crew, and Passengers, making air travel management more efficient and user-friendly.
@@ -51,3 +52,6 @@ Postman (for validating backend services)
 ✔ Responsive UI/UX for seamless user experience
 
 🔗 AirFleet represents our commitment to building efficient, secure, and user-friendly aviation management systems!
+=======
+
+>>>>>>> 9d474c416dd18165cb7022622d74957a56b718f5

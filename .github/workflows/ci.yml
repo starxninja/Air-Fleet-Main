@@ -27,8 +27,8 @@ jobs:
       - name: Build and push frontend image
         uses: docker/build-push-action@v6
         with:
-          context: ./app/airfleet-management
-          file: ./app/airfleet-management/Dockerfile
+          context: ./airfleet-management
+          file: ./airfleet-management/Dockerfile
           push: true
           tags: starx752/airline-frontend:latest
 
@@ -50,7 +50,7 @@ jobs:
       - name: Build and push backend image
         uses: docker/build-push-action@v6
         with:
-          context: ./app/airfleet-management-backend
-          file: ./app/airfleet-management-backend/Dockerfile
+          context: ./airfleet-management-backend
+          file: ./airfleet-management-backend/Dockerfile
           push: true
           tags: starx752/airline-backend:latest

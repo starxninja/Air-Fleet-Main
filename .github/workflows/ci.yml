@@ -50,7 +50,7 @@ jobs:
       - name: Build and push backend image
         uses: docker/build-push-action@v6
         with:
-          context: ./app/backend
+          context: ./app/airfleet-management-backend
           file: ./app/airfleet-management-backend/Dockerfile
           push: true
           tags: starx752/airline-backend:latest

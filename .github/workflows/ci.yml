@@ -33,13 +33,13 @@ jobs:
 
       - name: Build and Push Frontend Docker Image
         run: |
-          docker build -f app/frontend/Dockerfile -t usmanali2005/event-verse-frontend:latest .
-          docker push usmanali2005/event-verse-frontend:latest
+          docker build -f app/frontend/Dockerfile -t starx752/airline-frontend:latest .
+          docker push starx752/airline-frontend:latest
 
       - name: Build and Push Backend Docker Image
         run: |
-          docker build -f app/backend/Dockerfile -t usmanali2005/event-verse-backend:latest .
-          docker push usmanali2005/event-verse-backend:latest
+          docker build -f app/backend/Dockerfile -t starx752/airline-backend:latest .
+          docker push starx752/airline-backend:latest
 
       - name: Deploy to Minikube
         run: |

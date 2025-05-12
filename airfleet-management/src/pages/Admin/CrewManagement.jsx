@@ -21,7 +21,7 @@ const CrewManagement = () => {
   // Function to fetch Crew Members
   const fetchCrewMembers = () => {
     axios
-      .get("http://localhost:5000/api/users/crew")
+      .get("127.0.0.1/api/users/crew")
       .then((response) => setCrewMembers(response.data))
       .catch((error) => {
         console.error("Error fetching crew members:", error);
@@ -32,7 +32,7 @@ const CrewManagement = () => {
   // Function to fetch Flights
   const fetchFlights = () => {
     axios
-      .get("http://localhost:5000/api/flights")
+      .get("127.0.0.1/api/flights")
       .then((response) => setFlights(response.data))
       .catch((error) => {
         console.error("Error fetching flights:", error);
@@ -43,7 +43,7 @@ const CrewManagement = () => {
   // Function to fetch assigned crew for flights
   const fetchAssignedCrew = () => {
     axios
-      .get("http://localhost:5000/api/crew/assigned")
+      .get("127.0.0.1/api/crew/assigned")
       .then((response) => setAssignedCrew(response.data))
       .catch((error) => {
         console.error("Error fetching assigned crew:", error);
@@ -69,7 +69,7 @@ const CrewManagement = () => {
       ]);
 
       axios
-        .post("http://localhost:5000/api/crew/assign", newAssignment)
+        .post("127.0.0.1/api/crew/assign", newAssignment)
         .then((response) => {
           toast.success("Crew member assigned successfully.");
           fetchAssignedCrew(); // Re-fetch assigned crew after successful assignment
@@ -93,7 +93,7 @@ const CrewManagement = () => {
     );
 
     axios
-      .delete("http://localhost:5000/api/crew/remove", {
+      .delete("127.0.0.1/api/crew/remove", {
         data: { crewMemberId: crewId, flightId },
       })
       .then(() => {

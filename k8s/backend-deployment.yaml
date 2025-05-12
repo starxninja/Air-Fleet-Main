@@ -30,3 +30,4 @@ spec:
             requests:
               cpu: 200m
               memory: 256Mi
+          type: LoadBalancer

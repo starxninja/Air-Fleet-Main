@@ -1,0 +1,172 @@
+[2025-05-12 11:19:21Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-05-12 11:19:21Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:19:21Z INFO HostContext] Well known directory 'Root': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner'
+[2025-05-12 11:19:21Z INFO HostContext] Well known config file 'Credentials': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials'
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Root': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner'
+[2025-05-12 11:19:22Z INFO HostContext] Well known config file 'Runner': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.runner'
+[2025-05-12 11:19:22Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2025-05-12 11:19:22Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.26100.
+[2025-05-12 11:19:22Z INFO Listener] Version: 2.323.0
+[2025-05-12 11:19:22Z INFO Listener] Commit: d8b82f44a9ec0258904d5869ae683c31d5aac299
+[2025-05-12 11:19:22Z INFO Listener] Culture: en-US
+[2025-05-12 11:19:22Z INFO Listener] UI Culture: en-US
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Root': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner'
+[2025-05-12 11:19:22Z INFO Listener] Validating directory permissions for: 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner'
+[2025-05-12 11:19:22Z INFO CommandLineParser] Parse
+[2025-05-12 11:19:22Z INFO CommandLineParser] Parsing 1 args
+[2025-05-12 11:19:22Z INFO CommandLineParser] parsing argument
+[2025-05-12 11:19:22Z INFO CommandLineParser] HasArgs: False
+[2025-05-12 11:19:22Z INFO CommandLineParser] Adding Command: run
+[2025-05-12 11:19:22Z INFO Listener] Arguments parsed
+[2025-05-12 11:19:22Z INFO Runner] ExecuteCommand
+[2025-05-12 11:19:22Z INFO ConfigurationStore] currentAssemblyLocation: D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin\Runner.Listener.dll
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:19:22Z INFO ConfigurationStore] binPath: D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Root': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner'
+[2025-05-12 11:19:22Z INFO ConfigurationStore] RootFolder: D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Root': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner'
+[2025-05-12 11:19:22Z INFO HostContext] Well known config file 'Runner': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.runner'
+[2025-05-12 11:19:22Z INFO ConfigurationStore] ConfigFilePath: D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.runner
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Root': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner'
+[2025-05-12 11:19:22Z INFO HostContext] Well known config file 'MigratedRunner': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.runner_migrated'
+[2025-05-12 11:19:22Z INFO ConfigurationStore] MigratedConfigFilePath: D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.runner_migrated
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Root': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner'
+[2025-05-12 11:19:22Z INFO HostContext] Well known config file 'Credentials': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials'
+[2025-05-12 11:19:22Z INFO ConfigurationStore] CredFilePath: D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Root': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner'
+[2025-05-12 11:19:22Z INFO HostContext] Well known config file 'MigratedCredentials': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_migrated'
+[2025-05-12 11:19:22Z INFO ConfigurationStore] MigratedCredFilePath: D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_migrated
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Root': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner'
+[2025-05-12 11:19:22Z INFO HostContext] Well known config file 'Service': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.service'
+[2025-05-12 11:19:22Z INFO ConfigurationStore] ServiceConfigFilePath: D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.service
+[2025-05-12 11:19:22Z INFO CommandSettings] Flag 'help': 'False'
+[2025-05-12 11:19:22Z INFO CommandSettings] Flag 'version': 'False'
+[2025-05-12 11:19:22Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-05-12 11:19:22Z INFO CommandSettings] Flag 'check': 'False'
+[2025-05-12 11:19:22Z INFO CommandSettings] Command 'configure': 'False'
+[2025-05-12 11:19:22Z INFO CommandSettings] Command 'remove': 'False'
+[2025-05-12 11:19:22Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-05-12 11:19:22Z INFO ConfigurationManager] LoadSettings
+[2025-05-12 11:19:22Z INFO ConfigurationStore] IsConfigured()
+[2025-05-12 11:19:22Z INFO ConfigurationStore] IsConfigured: True
+[2025-05-12 11:19:22Z INFO ConfigurationManager] Is configured: True
+[2025-05-12 11:19:22Z INFO ConfigurationStore] Read setting file: 315 chars
+[2025-05-12 11:19:22Z INFO ConfigurationManager] Settings Loaded
+[2025-05-12 11:19:22Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-05-12 11:19:22Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-05-12 11:19:22Z INFO CommandSettings] Command 'run': 'True'
+[2025-05-12 11:19:22Z INFO ConfigurationStore] IsConfigured()
+[2025-05-12 11:19:22Z INFO ConfigurationStore] IsConfigured: True
+[2025-05-12 11:19:22Z INFO ConfigurationManager] Is configured: True
+[2025-05-12 11:19:22Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2025-05-12 11:19:22Z INFO Runner] Set runner startup type - Manual
+[2025-05-12 11:19:22Z INFO CommandSettings] Flag 'once': 'False'
+[2025-05-12 11:19:22Z INFO CommandSettings] Flag 'once': 'False'
+[2025-05-12 11:19:22Z INFO Runner] RunAsync
+[2025-05-12 11:19:22Z INFO ConfigurationManager] LoadSettings
+[2025-05-12 11:19:22Z INFO ConfigurationStore] IsConfigured()
+[2025-05-12 11:19:22Z INFO ConfigurationStore] IsConfigured: True
+[2025-05-12 11:19:22Z INFO ConfigurationManager] Is configured: True
+[2025-05-12 11:19:22Z INFO ConfigurationManager] Settings Loaded
+[2025-05-12 11:19:22Z INFO MessageListener] {
+  "AgentId": 23,
+  "AgentName": "DESKTOP-CI4NNMN",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus7.actions.githubusercontent.com/5wWLjlBwBJZV7KcULPxSNZPSHll2BlI0or1MNJHInjlpgDsaFS/",
+  "GitHubUrl": "https://github.com/starxninja/Air-Fleet-Main",
+  "WorkFolder": "_work"
+}
+[2025-05-12 11:19:22Z INFO MessageListener] Loading Credentials
+[2025-05-12 11:19:22Z INFO ConfigurationStore] HasCredentials()
+[2025-05-12 11:19:22Z INFO ConfigurationStore] stored True
+[2025-05-12 11:19:22Z INFO CredentialManager] GetCredentialProvider
+[2025-05-12 11:19:22Z INFO CredentialManager] Creating type OAuth
+[2025-05-12 11:19:22Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:19:22Z INFO HostContext] Well known directory 'Root': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner'
+[2025-05-12 11:19:22Z INFO HostContext] Well known config file 'RSACredentials': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams'
+[2025-05-12 11:19:22Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:19:22Z INFO MessageListener] Attempt to create session.
+[2025-05-12 11:19:22Z INFO MessageListener] Connecting to the Runner Server...
+[2025-05-12 11:19:22Z INFO RunnerServer] EstablishVssConnection
+[2025-05-12 11:19:22Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-05-12 11:19:22Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-05-12 11:19:22Z INFO RunnerServer] EstablishVssConnection
+[2025-05-12 11:19:22Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-05-12 11:19:22Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-05-12 11:19:22Z INFO RunnerServer] EstablishVssConnection
+[2025-05-12 11:19:22Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-05-12 11:19:22Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-05-12 11:19:23Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-05-12 11:19:23Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-05-12 11:19:23Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-05-12 11:19:23Z INFO MessageListener] VssConnection created
+[2025-05-12 11:19:23Z INFO Terminal] WRITE LINE: 
+[2025-05-12 11:19:23Z INFO Terminal] WRITE LINE: 
+[2025-05-12 11:19:23Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:19:23Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:19:25Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-12 11:19:25Z INFO MessageListener] Session created.
+[2025-05-12 11:19:25Z INFO Terminal] WRITE LINE: Current runner version: '2.323.0'
+[2025-05-12 11:19:25Z INFO Terminal] WRITE LINE: 2025-05-12 11:19:25Z: Listening for Jobs
+[2025-05-12 11:19:25Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2025-05-12 11:19:25Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:19:26Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-12 11:22:47Z INFO MessageListener] Message '1726595739529911735' received from session '2397b47f-5c52-46ec-8b4d-c356740f5f1e'.
+[2025-05-12 11:22:47Z INFO ConfigurationStore] HasCredentials()
+[2025-05-12 11:22:47Z INFO ConfigurationStore] stored True
+[2025-05-12 11:22:47Z INFO CredentialManager] GetCredentialProvider
+[2025-05-12 11:22:47Z INFO CredentialManager] Creating type OAuth
+[2025-05-12 11:22:47Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-12 11:22:47Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:22:47Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:22:47Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:22:48Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-12 11:22:49Z INFO JobDispatcher] Job request 0 for plan f39dfa70-09f4-471b-a521-eebf5287e414 job c39aceec-5267-532a-8987-9a100957188e received.
+[2025-05-12 11:22:49Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-12 11:22:49Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-12 11:22:49Z INFO Terminal] WRITE LINE: 2025-05-12 11:22:49Z: Running job: build-deploy
+[2025-05-12 11:22:49Z INFO JobDispatcher] Start renew job request 0 for job c39aceec-5267-532a-8987-9a100957188e.
+[2025-05-12 11:22:50Z INFO JobDispatcher] Successfully renew job c39aceec-5267-532a-8987-9a100957188e, job is valid till 5/12/2025 11:32:54 AM
+[2025-05-12 11:22:50Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:22:50Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-12 11:22:50Z INFO ProcessInvokerWrapper]   File name: 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin\Runner.Worker.exe'
+[2025-05-12 11:22:50Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1420 1624'
+[2025-05-12 11:22:50Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:22:50Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-12 11:22:50Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-12 11:22:50Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-12 11:22:50Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-12 11:22:50Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-12 11:22:50Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-12 11:22:50Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-12 11:22:50Z INFO ProcessInvokerWrapper] Process started with process id 8884, waiting for process exit.
+[2025-05-12 11:22:50Z INFO JobDispatcher] Send job request message to worker for job c39aceec-5267-532a-8987-9a100957188e.
+[2025-05-12 11:22:50Z INFO ProcessChannel] Sending message of length 22087, with hash 'd2db28df47f604d3ecdbd9430b3b7090e5a05a9fd8b2b841c9471f10c3b8073b'
+[2025-05-12 11:22:51Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-12 11:22:51Z INFO JobNotification] Entering StartMonitor
+[2025-05-12 11:23:51Z INFO JobDispatcher] Successfully renew job c39aceec-5267-532a-8987-9a100957188e, job is valid till 5/12/2025 11:33:55 AM
+[2025-05-12 11:24:51Z INFO JobDispatcher] Successfully renew job c39aceec-5267-532a-8987-9a100957188e, job is valid till 5/12/2025 11:34:55 AM
+[2025-05-12 11:25:51Z INFO JobDispatcher] Successfully renew job c39aceec-5267-532a-8987-9a100957188e, job is valid till 5/12/2025 11:35:55 AM
+[2025-05-12 11:26:51Z INFO JobDispatcher] Successfully renew job c39aceec-5267-532a-8987-9a100957188e, job is valid till 5/12/2025 11:36:56 AM
+[2025-05-12 11:27:52Z INFO JobDispatcher] Successfully renew job c39aceec-5267-532a-8987-9a100957188e, job is valid till 5/12/2025 11:37:56 AM
+[2025-05-12 11:28:44Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-12 11:28:44Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-12 11:28:44Z INFO ProcessInvokerWrapper] Finished process 8884 with exit code 102, and elapsed time 00:05:54.1569673.
+[2025-05-12 11:28:44Z INFO JobDispatcher] Worker finished for job c39aceec-5267-532a-8987-9a100957188e. Code: 102
+[2025-05-12 11:28:44Z INFO JobDispatcher] finish job request for job c39aceec-5267-532a-8987-9a100957188e with result: Failed
+[2025-05-12 11:28:44Z INFO Terminal] WRITE LINE: 2025-05-12 11:28:44Z: Job build-deploy completed with result: Failed
+[2025-05-12 11:28:44Z INFO JobDispatcher] Stop renew job request for job c39aceec-5267-532a-8987-9a100957188e.
+[2025-05-12 11:28:44Z INFO JobDispatcher] job renew has been cancelled, stop renew job c39aceec-5267-532a-8987-9a100957188e.
+[2025-05-12 11:28:44Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-12 11:28:44Z INFO JobNotification] Entering EndMonitor
+[2025-05-12 11:28:44Z INFO MessageListener] Received job status event. JobState: Online

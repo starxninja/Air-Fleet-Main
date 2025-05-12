@@ -1,4 +1,4 @@
-name: Build and Deploy to Minikube
+name: CI Pipeline
 
 on:
   push:
@@ -37,21 +37,22 @@ jobs:
       - name: Build and Push Frontend Docker Image
         shell: powershell
         run: |
-          docker build -f app/airfleet-management/Dockerfile -t starx752/airline-frontend:latest .
-          docker push starx752/airline-frontend:latest
+          docker build -f airfleet-management/Dockerfile -t starnxinja/airline-frontend:latest .
+          docker push starnxinja/airline-frontend:latest
 
       - name: Build and Push Backend Docker Image
         shell: powershell
         run: |
-          docker build -f app/backend/Dockerfile -t starx752/airline-backend:latest .
-          docker push starx752/airline-backend:latest
+          docker build -f airfleet-management-backend/Dockerfile -t starnxinja/airline-backend:latest .
+          docker push starnxinja/airline-backend:latest
 
       - name: Deploy to Minikube
         shell: powershell
         run: |
-          kubectl apply -f k8s/mongodb-deployment.yaml -n airfleet
-          kubectl apply -f k8s/mongodb-service.yaml -n airfleet
-          kubectl apply -f k8s/backend-deployment.yaml -n airfleet
-          kubectl apply -f k8s/backend-service.yaml -n airfleet
-          kubectl apply -f k8s/frontend-deployment.yaml -n airfleet
-          kubectl apply -f k8s/frontend-service.yaml -n airfleet
+          kubectl apply -f k8s/backend-deployment.yaml 
+          kubectl apply -f k8s/backend-service.yaml 
+          kubectl apply -f k8s/frontend-deployment.yaml 
+          kubectl apply -f k8s/frontend-service.yaml 
+          kubectl apply -f k8s/mongo-deployment.yaml 
+          kubectl apply -f k8s/mongo-service.yaml 
+          kubectl apply -f k8s/mongo-pvc.yaml 

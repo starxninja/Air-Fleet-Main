@@ -11,24 +11,9 @@ on:
 jobs:
   build-and-push-frontend:
     runs-on: self-hosted
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          submodules: false  # Disable submodule fetching
-
-      - name: Install Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-
-      - name: Install Frontend Dependencies
-        shell: powershell
-        run: |
-          cd airfleet-management
-          npm install
-          cd ..
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -45,28 +30,13 @@ jobs:
           context: ./airfleet-management
           file: ./airfleet-management/Dockerfile
           push: true
-          tags: starx752/airline-frontend:latest  # Updated to match your GitHub username
+          tags: starx752/airline-frontend:latest
 
   build-and-push-backend:
-    runs-on: self-hosted
-
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          submodules: false  # Disable submodule fetching
-
-      - name: Install Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-
-      - name: Install Backend Dependencies
-        shell: powershell
-        run: |
-          cd airfleet-management-backend
-          npm install
-          cd ..
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -83,4 +53,4 @@ jobs:
           context: ./airfleet-management-backend
           file: ./airfleet-management-backend/Dockerfile
           push: true
-          tags: starx752/airline-backend:latest  # Updated to match your GitHub username
+          tags: starx752/airline-backend:latest

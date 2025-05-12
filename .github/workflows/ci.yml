@@ -23,7 +23,18 @@ jobs:
             k8s
             .github
             .gitignore
-            *.yml
+            *.md
+            *.json
+
+      - name: Clean workspace
+        shell: powershell
+        run: |
+          if (Test-Path -Path "airfleet-management/node_modules") {
+            Remove-Item -Path "airfleet-management/node_modules" -Recurse -Force
+          }
+          if (Test-Path -Path "airfleet-management-backend/node_modules") {
+            Remove-Item -Path "airfleet-management-backend/node_modules" -Recurse -Force
+          }
 
       - name: Install Node.js
         uses: actions/setup-node@v3
@@ -52,7 +63,7 @@ jobs:
           context: ./airfleet-management
           file: ./airfleet-management/Dockerfile
           push: true
-          tags: starx752/airline-frontend:latest  # Updated to match your GitHub username
+          tags:  starx752/airline-frontend:latest
 
   build-and-push-backend:
     runs-on: self-hosted
@@ -68,7 +79,18 @@ jobs:
             k8s
             .github
             .gitignore
-            *.yml
+            *.md
+            *.json
+
+      - name: Clean workspace
+        shell: powershell
+        run: |
+          if (Test-Path -Path "airfleet-management/node_modules") {
+            Remove-Item -Path "airfleet-management/node_modules" -Recurse -Force
+          }
+          if (Test-Path -Path "airfleet-management-backend/node_modules") {
+            Remove-Item -Path "airfleet-management-backend/node_modules" -Recurse -Force
+          }
 
       - name: Install Node.js
         uses: actions/setup-node@v3
@@ -97,4 +119,4 @@ jobs:
           context: ./airfleet-management-backend
           file: ./airfleet-management-backend/Dockerfile
           push: true
-          tags: starx752/airline-backend:latest  # Updated to match your GitHub username
+          tags: starx752/airline-backend:latest

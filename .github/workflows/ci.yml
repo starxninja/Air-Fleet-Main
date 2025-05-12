@@ -64,7 +64,7 @@ jobs:
           context: ./airfleet-management
           file: ./airfleet-management/Dockerfile
           push: true
-          tags: starxninja/airline-frontend:latest  # Updated to match your GitHub username
+          tags: starx752/airline-frontend:latest  # Updated to match your GitHub username
 
   build-and-push-backend:
     runs-on: self-hosted
@@ -121,4 +121,4 @@ jobs:
           context: ./airfleet-management-backend
           file: ./airfleet-management-backend/Dockerfile
           push: true
-          tags: starxninja/airline-backend:latest  # Updated to match your GitHub username
+          tags: starx752/airline-backend:latest  # Updated to match your GitHub username

@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          submodules: false  # Explicitly disable submodule fetching
 
       - name: Install Node.js
         uses: actions/setup-node@v3
@@ -53,19 +55,19 @@ jobs:
       - name: Build and Push Frontend Docker Image
         shell: powershell
         run: |
-          docker build -f airfleet-management/Dockerfile -tx752/airline-frontend:latest .
-          docker push starnxinja/airline-frontend:latest
+          docker build -f airfleet-management/Dockerfile -t starx752/airline-frontend:latest .
+          docker push starx752/airline-frontend:latest
 
       - name: Build and Push Backend Docker Image
         shell: powershell
         run: |
-          docker build -f airfleet-management-backend/Dockerfile -t starnxinja/airline-backend:latest .
+          docker build -f airfleet-management-backend/Dockerfile -t starx752/airline-backend:latest .
           docker push starx752/airline-backend:latest
 
       - name: Deploy to Minikube
         shell: powershell
         run: |
-          kubectl apply -f k8s/frontend-d stareployment.yaml -n airfleet
+          kubectl apply -f k8s/frontend-deployment.yaml -n airfleet
           kubectl apply -f k8s/frontend-service.yaml -n airfleet
           kubectl apply -f k8s/backend-deployment.yaml -n airfleet
           kubectl apply -f k8s/backend-service.yaml -n airfleet

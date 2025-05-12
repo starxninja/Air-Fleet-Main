@@ -7,27 +7,15 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: backend
+      app: airfleet-backend  # Match the service selector
   template:
     metadata:
       labels:
-        app: backend
+        app: airfleet-backend
     spec:
-      imagePullSecrets:
-        - name: dockerhub-secret
       containers:
-        - name: backend
-          image: starx752/airline-backend:latest
-          ports:
-            - containerPort: 5000
-          env:
-            - name: MONGO_URI
-              value: mongodb://mongo-service:27017/airlineDB
-          resources:
-            limits:
-              cpu: 500m
-              memory: 512Mi
-            requests:
-              cpu: 200m
-              memory: 256Mi
-          type: LoadBalancer
+      - name: backend
+        image: starnxinja/airline-backend:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 5000  # Match the app's port

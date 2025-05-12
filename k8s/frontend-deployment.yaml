@@ -15,13 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: starx752/airline-frontend:latest
+        image: starnxinja/airline-frontend:latest
+        imagePullPolicy: Always
         ports:
-        - containerPort: 80
-        resources:
-          limits:
-            cpu: "500m"
-            memory: "512Mi"
-          requests:
-            cpu: "200m"
-            memory: "256Mi"
+        - containerPort: 3000  # Match the app's port

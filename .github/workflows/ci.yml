@@ -23,8 +23,9 @@ jobs:
             k8s
             .github
             .gitignore
-            *.md
+            *.yml
             *.json
+            *.md
 
       - name: Clean workspace
         shell: powershell
@@ -63,7 +64,7 @@ jobs:
           context: ./airfleet-management
           file: ./airfleet-management/Dockerfile
           push: true
-          tags:  starx752/airline-frontend:latest
+          tags: starxninja/airline-frontend:latest  # Updated to match your GitHub username
 
   build-and-push-backend:
     runs-on: self-hosted
@@ -79,8 +80,9 @@ jobs:
             k8s
             .github
             .gitignore
-            *.md
+            *.yml
             *.json
+            *.md
 
       - name: Clean workspace
         shell: powershell
@@ -119,4 +121,4 @@ jobs:
           context: ./airfleet-management-backend
           file: ./airfleet-management-backend/Dockerfile
           push: true
-          tags: starx752/airline-backend:latest
+          tags: starxninja/airline-backend:latest  # Updated to match your GitHub username

@@ -4,9 +4,10 @@ metadata:
   name: backend-service
   namespace: air-fleet
 spec:
-  type: ClusterIP
   selector:
     app: airfleet-backend
   ports:
-    - port: 5000
-      targetPort: 5000
+  - protocol: TCP
+    port: 5000
+    targetPort: 5000  # Match the deployment's containerPort
+  type: ClusterIP

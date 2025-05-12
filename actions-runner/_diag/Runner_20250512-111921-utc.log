@@ -170,3 +170,187 @@
 [2025-05-12 11:28:44Z INFO JobNotification] Entering JobCompleted Notification
 [2025-05-12 11:28:44Z INFO JobNotification] Entering EndMonitor
 [2025-05-12 11:28:44Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-12 11:32:54Z INFO MessageListener] Message '6428131640254932582' received from session '2397b47f-5c52-46ec-8b4d-c356740f5f1e'.
+[2025-05-12 11:32:54Z INFO ConfigurationStore] HasCredentials()
+[2025-05-12 11:32:54Z INFO ConfigurationStore] stored True
+[2025-05-12 11:32:54Z INFO CredentialManager] GetCredentialProvider
+[2025-05-12 11:32:54Z INFO CredentialManager] Creating type OAuth
+[2025-05-12 11:32:54Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-12 11:32:54Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:32:54Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:32:54Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:32:55Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-12 11:32:57Z INFO JobDispatcher] Job request 0 for plan c3f53598-c0d9-491f-9cf0-0bde80feb7fe job cf7bd45f-3dfa-5e58-9f2a-7d915d5f8957 received.
+[2025-05-12 11:32:57Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-12 11:32:57Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-12 11:32:57Z INFO JobDispatcher] Job request c39aceec-5267-532a-8987-9a100957188e processed succeed.
+[2025-05-12 11:32:57Z INFO Terminal] WRITE LINE: 2025-05-12 11:32:57Z: Running job: build-deploy
+[2025-05-12 11:32:57Z INFO JobDispatcher] Start renew job request 0 for job cf7bd45f-3dfa-5e58-9f2a-7d915d5f8957.
+[2025-05-12 11:32:58Z INFO JobDispatcher] Successfully renew job cf7bd45f-3dfa-5e58-9f2a-7d915d5f8957, job is valid till 5/12/2025 11:43:02 AM
+[2025-05-12 11:32:58Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:32:58Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-12 11:32:58Z INFO ProcessInvokerWrapper]   File name: 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin\Runner.Worker.exe'
+[2025-05-12 11:32:58Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2440 2244'
+[2025-05-12 11:32:58Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:32:58Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-12 11:32:58Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-12 11:32:58Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-12 11:32:58Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-12 11:32:58Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-12 11:32:58Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-12 11:32:58Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-12 11:32:58Z INFO ProcessInvokerWrapper] Process started with process id 20544, waiting for process exit.
+[2025-05-12 11:32:58Z INFO JobDispatcher] Send job request message to worker for job cf7bd45f-3dfa-5e58-9f2a-7d915d5f8957.
+[2025-05-12 11:32:58Z INFO ProcessChannel] Sending message of length 22058, with hash '20348b79d73db50a75fbcaf079485271fb6a7b510409635e0cfd43467cdd888a'
+[2025-05-12 11:32:58Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-12 11:32:58Z INFO JobNotification] Entering StartMonitor
+[2025-05-12 11:33:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-12 11:33:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-12 11:33:58Z INFO JobDispatcher] Successfully renew job cf7bd45f-3dfa-5e58-9f2a-7d915d5f8957, job is valid till 5/12/2025 11:44:02 AM
+[2025-05-12 11:33:58Z INFO ProcessInvokerWrapper] Finished process 20544 with exit code 102, and elapsed time 00:01:00.3192602.
+[2025-05-12 11:33:58Z INFO JobDispatcher] Worker finished for job cf7bd45f-3dfa-5e58-9f2a-7d915d5f8957. Code: 102
+[2025-05-12 11:33:58Z INFO JobDispatcher] finish job request for job cf7bd45f-3dfa-5e58-9f2a-7d915d5f8957 with result: Failed
+[2025-05-12 11:33:58Z INFO Terminal] WRITE LINE: 2025-05-12 11:33:58Z: Job build-deploy completed with result: Failed
+[2025-05-12 11:33:58Z INFO JobDispatcher] Stop renew job request for job cf7bd45f-3dfa-5e58-9f2a-7d915d5f8957.
+[2025-05-12 11:33:58Z INFO JobDispatcher] job renew has been cancelled, stop renew job cf7bd45f-3dfa-5e58-9f2a-7d915d5f8957.
+[2025-05-12 11:33:58Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-12 11:33:58Z INFO JobNotification] Entering EndMonitor
+[2025-05-12 11:33:58Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-12 11:37:03Z INFO MessageListener] Message '1726790541600111340' received from session '2397b47f-5c52-46ec-8b4d-c356740f5f1e'.
+[2025-05-12 11:37:03Z INFO ConfigurationStore] HasCredentials()
+[2025-05-12 11:37:03Z INFO ConfigurationStore] stored True
+[2025-05-12 11:37:03Z INFO CredentialManager] GetCredentialProvider
+[2025-05-12 11:37:03Z INFO CredentialManager] Creating type OAuth
+[2025-05-12 11:37:03Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-12 11:37:03Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:37:03Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:37:03Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:37:04Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-12 11:37:06Z INFO JobDispatcher] Job request 0 for plan 945b9d2d-3aec-4fb1-a04d-ab3e0ddf552b job 07257811-2961-55dc-a277-bc29e38c4886 received.
+[2025-05-12 11:37:06Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-12 11:37:06Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-12 11:37:06Z INFO JobDispatcher] Job request cf7bd45f-3dfa-5e58-9f2a-7d915d5f8957 processed succeed.
+[2025-05-12 11:37:06Z INFO Terminal] WRITE LINE: 2025-05-12 11:37:06Z: Running job: build-deploy
+[2025-05-12 11:37:06Z INFO JobDispatcher] Start renew job request 0 for job 07257811-2961-55dc-a277-bc29e38c4886.
+[2025-05-12 11:37:07Z INFO JobDispatcher] Successfully renew job 07257811-2961-55dc-a277-bc29e38c4886, job is valid till 5/12/2025 11:47:11 AM
+[2025-05-12 11:37:07Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:37:07Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-12 11:37:07Z INFO ProcessInvokerWrapper]   File name: 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin\Runner.Worker.exe'
+[2025-05-12 11:37:07Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1380 1648'
+[2025-05-12 11:37:07Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:37:07Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-12 11:37:07Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-12 11:37:07Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-12 11:37:07Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-12 11:37:07Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-12 11:37:07Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-12 11:37:07Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-12 11:37:07Z INFO ProcessInvokerWrapper] Process started with process id 21264, waiting for process exit.
+[2025-05-12 11:37:07Z INFO JobDispatcher] Send job request message to worker for job 07257811-2961-55dc-a277-bc29e38c4886.
+[2025-05-12 11:37:07Z INFO ProcessChannel] Sending message of length 21782, with hash 'f8aa6f346afb4b28b2c821b84d1e1b7ca8122ad3785b273f8cc44698f2845b80'
+[2025-05-12 11:37:07Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-12 11:37:07Z INFO JobNotification] Entering StartMonitor
+[2025-05-12 11:38:07Z INFO JobDispatcher] Successfully renew job 07257811-2961-55dc-a277-bc29e38c4886, job is valid till 5/12/2025 11:48:11 AM
+[2025-05-12 11:38:08Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-12 11:38:08Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-12 11:38:08Z INFO ProcessInvokerWrapper] Finished process 21264 with exit code 102, and elapsed time 00:01:01.3779034.
+[2025-05-12 11:38:08Z INFO JobDispatcher] Worker finished for job 07257811-2961-55dc-a277-bc29e38c4886. Code: 102
+[2025-05-12 11:38:08Z INFO JobDispatcher] finish job request for job 07257811-2961-55dc-a277-bc29e38c4886 with result: Failed
+[2025-05-12 11:38:08Z INFO Terminal] WRITE LINE: 2025-05-12 11:38:08Z: Job build-deploy completed with result: Failed
+[2025-05-12 11:38:08Z INFO JobDispatcher] Stop renew job request for job 07257811-2961-55dc-a277-bc29e38c4886.
+[2025-05-12 11:38:08Z INFO JobDispatcher] job renew has been cancelled, stop renew job 07257811-2961-55dc-a277-bc29e38c4886.
+[2025-05-12 11:38:08Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-12 11:38:08Z INFO JobNotification] Entering EndMonitor
+[2025-05-12 11:38:08Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-12 11:41:18Z INFO MessageListener] Message '8901348285065329851' received from session '2397b47f-5c52-46ec-8b4d-c356740f5f1e'.
+[2025-05-12 11:41:18Z INFO ConfigurationStore] HasCredentials()
+[2025-05-12 11:41:18Z INFO ConfigurationStore] stored True
+[2025-05-12 11:41:18Z INFO CredentialManager] GetCredentialProvider
+[2025-05-12 11:41:18Z INFO CredentialManager] Creating type OAuth
+[2025-05-12 11:41:18Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-12 11:41:18Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:41:18Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:41:18Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:41:19Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-12 11:41:20Z INFO JobDispatcher] Job request 0 for plan b66745e1-9603-4a34-bc3b-e7b8abb98fc6 job 74a8d14a-5c55-566f-ab8e-72db4d5dfbc8 received.
+[2025-05-12 11:41:20Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-12 11:41:20Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-12 11:41:20Z INFO JobDispatcher] Job request 07257811-2961-55dc-a277-bc29e38c4886 processed succeed.
+[2025-05-12 11:41:20Z INFO Terminal] WRITE LINE: 2025-05-12 11:41:20Z: Running job: build-deploy
+[2025-05-12 11:41:20Z INFO JobDispatcher] Start renew job request 0 for job 74a8d14a-5c55-566f-ab8e-72db4d5dfbc8.
+[2025-05-12 11:41:21Z INFO JobDispatcher] Successfully renew job 74a8d14a-5c55-566f-ab8e-72db4d5dfbc8, job is valid till 5/12/2025 11:51:25 AM
+[2025-05-12 11:41:21Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:41:21Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-12 11:41:21Z INFO ProcessInvokerWrapper]   File name: 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin\Runner.Worker.exe'
+[2025-05-12 11:41:21Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2492 1516'
+[2025-05-12 11:41:21Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:41:21Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-12 11:41:21Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-12 11:41:21Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-12 11:41:21Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-12 11:41:21Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-12 11:41:21Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-12 11:41:21Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-12 11:41:21Z INFO ProcessInvokerWrapper] Process started with process id 556, waiting for process exit.
+[2025-05-12 11:41:21Z INFO JobDispatcher] Send job request message to worker for job 74a8d14a-5c55-566f-ab8e-72db4d5dfbc8.
+[2025-05-12 11:41:21Z INFO ProcessChannel] Sending message of length 23514, with hash '24138c8b7de8bd306578652635c3763bb2d8931dc396ce1b4874bc6216db3f65'
+[2025-05-12 11:41:22Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-12 11:41:22Z INFO JobNotification] Entering StartMonitor
+[2025-05-12 11:42:21Z INFO JobDispatcher] Successfully renew job 74a8d14a-5c55-566f-ab8e-72db4d5dfbc8, job is valid till 5/12/2025 11:52:26 AM
+[2025-05-12 11:42:52Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-12 11:42:52Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-12 11:42:52Z INFO ProcessInvokerWrapper] Finished process 556 with exit code 102, and elapsed time 00:01:31.3215565.
+[2025-05-12 11:42:52Z INFO JobDispatcher] Worker finished for job 74a8d14a-5c55-566f-ab8e-72db4d5dfbc8. Code: 102
+[2025-05-12 11:42:52Z INFO JobDispatcher] finish job request for job 74a8d14a-5c55-566f-ab8e-72db4d5dfbc8 with result: Failed
+[2025-05-12 11:42:52Z INFO Terminal] WRITE LINE: 2025-05-12 11:42:52Z: Job build-deploy completed with result: Failed
+[2025-05-12 11:42:52Z INFO JobDispatcher] Stop renew job request for job 74a8d14a-5c55-566f-ab8e-72db4d5dfbc8.
+[2025-05-12 11:42:52Z INFO JobDispatcher] job renew has been cancelled, stop renew job 74a8d14a-5c55-566f-ab8e-72db4d5dfbc8.
+[2025-05-12 11:42:52Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-12 11:42:52Z INFO JobNotification] Entering EndMonitor
+[2025-05-12 11:42:52Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-12 11:44:19Z INFO MessageListener] Message '5581745365389928797' received from session '2397b47f-5c52-46ec-8b4d-c356740f5f1e'.
+[2025-05-12 11:44:19Z INFO ConfigurationStore] HasCredentials()
+[2025-05-12 11:44:19Z INFO ConfigurationStore] stored True
+[2025-05-12 11:44:19Z INFO CredentialManager] GetCredentialProvider
+[2025-05-12 11:44:19Z INFO CredentialManager] Creating type OAuth
+[2025-05-12 11:44:19Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-12 11:44:19Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:44:19Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:44:19Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\.credentials_rsaparams
+[2025-05-12 11:44:20Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-12 11:44:22Z INFO JobDispatcher] Job request 0 for plan 54627557-5f68-4b41-9ce3-7981dc185fbc job 6b0b2f83-b509-5feb-a2f1-7dfdbfaf6283 received.
+[2025-05-12 11:44:22Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-12 11:44:22Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-12 11:44:22Z INFO JobDispatcher] Job request 74a8d14a-5c55-566f-ab8e-72db4d5dfbc8 processed succeed.
+[2025-05-12 11:44:22Z INFO Terminal] WRITE LINE: 2025-05-12 11:44:22Z: Running job: build-deploy
+[2025-05-12 11:44:22Z INFO JobDispatcher] Start renew job request 0 for job 6b0b2f83-b509-5feb-a2f1-7dfdbfaf6283.
+[2025-05-12 11:44:23Z INFO JobDispatcher] Successfully renew job 6b0b2f83-b509-5feb-a2f1-7dfdbfaf6283, job is valid till 5/12/2025 11:54:27 AM
+[2025-05-12 11:44:23Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:44:23Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-12 11:44:23Z INFO ProcessInvokerWrapper]   File name: 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin\Runner.Worker.exe'
+[2025-05-12 11:44:23Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2472 1472'
+[2025-05-12 11:44:23Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Projects\airplane-management-system-main\airplane-management-system-main\app\actions-runner\bin'
+[2025-05-12 11:44:23Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-12 11:44:23Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-12 11:44:23Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-12 11:44:23Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-12 11:44:23Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-12 11:44:23Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-12 11:44:23Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-12 11:44:23Z INFO ProcessInvokerWrapper] Process started with process id 21208, waiting for process exit.
+[2025-05-12 11:44:23Z INFO JobDispatcher] Send job request message to worker for job 6b0b2f83-b509-5feb-a2f1-7dfdbfaf6283.
+[2025-05-12 11:44:23Z INFO ProcessChannel] Sending message of length 23693, with hash '5c83087b1b95ae04c5c6ca11427b4791d86d977caa8478a0fd4e865e75613103'
+[2025-05-12 11:44:23Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-12 11:44:23Z INFO JobNotification] Entering StartMonitor
+[2025-05-12 11:45:23Z INFO JobDispatcher] Successfully renew job 6b0b2f83-b509-5feb-a2f1-7dfdbfaf6283, job is valid till 5/12/2025 11:55:28 AM
+[2025-05-12 11:45:49Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-12 11:45:49Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-12 11:45:49Z INFO ProcessInvokerWrapper] Finished process 21208 with exit code 102, and elapsed time 00:01:26.2487251.
+[2025-05-12 11:45:49Z INFO JobDispatcher] Worker finished for job 6b0b2f83-b509-5feb-a2f1-7dfdbfaf6283. Code: 102
+[2025-05-12 11:45:49Z INFO JobDispatcher] finish job request for job 6b0b2f83-b509-5feb-a2f1-7dfdbfaf6283 with result: Failed
+[2025-05-12 11:45:49Z INFO Terminal] WRITE LINE: 2025-05-12 11:45:49Z: Job build-deploy completed with result: Failed
+[2025-05-12 11:45:49Z INFO JobDispatcher] Stop renew job request for job 6b0b2f83-b509-5feb-a2f1-7dfdbfaf6283.
+[2025-05-12 11:45:49Z INFO JobDispatcher] job renew has been cancelled, stop renew job 6b0b2f83-b509-5feb-a2f1-7dfdbfaf6283.
+[2025-05-12 11:45:49Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-12 11:45:49Z INFO JobNotification] Entering EndMonitor
+[2025-05-12 11:45:49Z INFO MessageListener] Received job status event. JobState: Online

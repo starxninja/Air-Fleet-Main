@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 23,
+  "agentName": "DESKTOP-CI4NNMN",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus7.actions.githubusercontent.com/5wWLjlBwBJZV7KcULPxSNZPSHll2BlI0or1MNJHInjlpgDsaFS/",
+  "gitHubUrl": "https://github.com/starxninja/Air-Fleet-Main",
+  "workFolder": "_work"
+}

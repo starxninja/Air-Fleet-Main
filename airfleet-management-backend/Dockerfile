@@ -1,8 +1,7 @@
-FROM node:18
+FROM node:20
 
 # Set working directory inside the container
-WORKDIR /app/airfleet-management-backend
-
+WORKDIR /app
 # Copy package.json and package-lock.json (if exists)
 COPY package*.json ./
 

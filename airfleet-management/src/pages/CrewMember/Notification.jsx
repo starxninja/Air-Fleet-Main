@@ -12,7 +12,7 @@ const NotificationsAndAlerts = () => {
       // Fetch notifications based on the crew email from the backend API
       const fetchNotifications = async () => {
         try {
-          const response = await axios.get(`http://localhost:5000/api/notifications/byEmail/${crewEmail}`);
+          const response = await axios.get(`127.0.0.1/api/notifications/byEmail/${crewEmail}`);
           setNotifications(response.data); // Set the notifications state with the response data
         } catch (error) {
           setMessage('Failed to fetch notifications. Please try again later.');
@@ -36,7 +36,7 @@ const NotificationsAndAlerts = () => {
 
     try {
       // Make a PUT request to update the notification status
-      const response = await axios.put(`http://localhost:5000/api/notifications/${_id}`, {
+      const response = await axios.put(`127.0.0.1/api/notifications/${_id}`, {
         status: 'Read', // Send 'status' as 'Read'
       });
 

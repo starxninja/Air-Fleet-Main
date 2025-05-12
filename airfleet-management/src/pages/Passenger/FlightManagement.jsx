@@ -12,7 +12,7 @@ const FlightBookingManagement = () => {
   useEffect(() => {
     const fetchFlights = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/flights/");
+        const response = await axios.get("127.0.0.1/api/flights/");
         setFlights(response.data);
         setSearchResults(response.data);
       } catch (error) {

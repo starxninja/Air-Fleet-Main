@@ -15,7 +15,7 @@ const TrackingPanel = () => {
     const fetchFlights = async () => {
       try {
         setLoading(true);
-        const response = await axios.get("http://localhost:5000/api/flights/");
+        const response = await axios.get("127.0.0.1/api/flights/");
         setAssignedFlights(response.data);
         setLoading(false);
       } catch (err) {
@@ -37,11 +37,11 @@ const TrackingPanel = () => {
       setPaymentRecords([]);
 
       // Fetch flight details
-      const flightResponse = await axios.get(`http://localhost:5000/api/flights/${flightId}`);
+      const flightResponse = await axios.get(`127.0.0.1/api/flights/${flightId}`);
       setSelectedFlight(flightResponse.data);
 
       // Fetch payment records
-      const paymentResponse = await axios.get(`http://localhost:5000/api/flights/${flightId}/payments`);
+      const paymentResponse = await axios.get(`127.0.0.1/api/flights/${flightId}/payments`);
       setPaymentRecords(paymentResponse.data);
 
       setLoading(false);

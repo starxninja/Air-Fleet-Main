@@ -16,7 +16,7 @@ const TravelHistory = () => {
         }
 
         const response = await fetch(
-          `http://localhost:5000/api/bookings/bookings/${passengerId}`
+          `127.0.0.1/api/bookings/bookings/${passengerId}`
         );
 
         if (!response.ok) {

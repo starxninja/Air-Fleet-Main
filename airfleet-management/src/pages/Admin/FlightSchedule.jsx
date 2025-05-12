@@ -16,7 +16,7 @@ const FlightSchedule = () => {
   const [isEditing, setIsEditing] = useState(false);
   const [editFlightId, setEditFlightId] = useState(null);
 
-  const API_URL = "http://localhost:5000/api/flights";
+  const API_URL = "127.0.0.1/api/flights";
 
   useEffect(() => {
     fetchFlights();

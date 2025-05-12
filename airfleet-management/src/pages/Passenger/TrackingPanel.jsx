@@ -36,7 +36,7 @@ const PaymentForm = ({ bookingData, setPaymentStatus }) => {
       setLoading(false);
       alert(`Payment Error: ${error.message}`);
     } else if (paymentIntent.status === "succeeded") {
-      await axios.put(`http://localhost:5000/api/bookings/bookings/${bookingData._id}/payment-status`, {
+      await axios.put(`127.0.0.1/api/bookings/bookings/${bookingData._id}/payment-status`, {
         paymentStatus: "Paid",
         status: "Confirmed",
       });

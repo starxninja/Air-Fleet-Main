@@ -20,7 +20,7 @@ const ProfileUpdate = () => {
     if (userId) {
       // Fetch user data from the backend
       axios
-        .get(`http://localhost:5000/api/passengers/profile/${userId}`)
+        .get(`127.0.0.1/api/passengers/profile/${userId}`)
         .then((response) => {
           const userData = response.data.user;
           
@@ -64,7 +64,7 @@ const ProfileUpdate = () => {
     // Update the profile using PUT request
     const userId = localStorage.getItem("PassID");
     axios
-      .put(`http://localhost:5000/api/passengers/update/${userId}`, {
+      .put(`127.0.0.1/api/passengers/update/${userId}`, {
         firstName: formData.fullName.split(" ")[0], // Extract first name from full name
         lastName: formData.fullName.split(" ")[1], // Extract last name from full name
         email: formData.email,

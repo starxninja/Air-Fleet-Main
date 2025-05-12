@@ -21,7 +21,7 @@ const ForgotPassword = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/send-otp', { email });
+      const response = await axios.post('127.0.0.1/api/auth/send-otp', { email });
       if (response.status === 200) {
         setOtpSent(true); // OTP is sent, switch to OTP verification form
         setMessage('OTP sent to your email!');
@@ -35,7 +35,7 @@ const ForgotPassword = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/verify-otp', { email, otp });
+      const response = await axios.post('127.0.0.1/api/auth/verify-otp', { email, otp });
       if (response.status === 200) {
         setMessage('OTP verified successfully! You can now reset your password.');
         // You can now allow user to reset the password here

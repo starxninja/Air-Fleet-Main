@@ -23,7 +23,7 @@ const FlightWithdrawalRequests = () => {
   useEffect(() => {
     const fetchFlights = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/flights");
+        const response = await fetch("127.0.0.1/api/flights");
         const data = await response.json();
         if (response.ok) {
           setFlights(data);
@@ -42,7 +42,7 @@ const FlightWithdrawalRequests = () => {
     e.preventDefault();
     if (selectedFlight && userId) {
       try {
-        const response = await fetch("http://localhost:5000/api/withdrawals", {
+        const response = await fetch("127.0.0.1/api/withdrawals", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ flightId: selectedFlight._id, userId }),

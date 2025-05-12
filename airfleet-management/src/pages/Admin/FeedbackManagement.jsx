@@ -13,7 +13,7 @@ const FeedbackManagement = () => {
 
   const fetchFeedbacks = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/feedbacks");
+      const response = await fetch("127.0.0.1/api/feedbacks");
       const data = await response.json();
       setFeedbacks(data);
       calculateAverageRating(data);

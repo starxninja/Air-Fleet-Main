@@ -10,7 +10,7 @@ const AssignedFlights = () => {
   useEffect(() => {
     const fetchFlights = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/flights");
+        const response = await fetch("127.0.0.1/api/flights");
         const data = await response.json();
         setFlights(data);
       } catch (error) {
@@ -24,7 +24,7 @@ const AssignedFlights = () => {
   // Fetch flight details for a particular flight
   const fetchFlightDetails = async (flightId) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/flights/${flightId}`);
+      const response = await fetch(`127.0.0.1/api/flights/${flightId}`);
       const data = await response.json();
       setSelectedFlightDetails(data);
       setIsModalOpen(true); // Open the modal

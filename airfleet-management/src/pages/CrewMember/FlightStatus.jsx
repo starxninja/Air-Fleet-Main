@@ -10,7 +10,7 @@ const FlightStatusManagement = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/flights")
+      .get("127.0.0.1/api/flights")
       .then((response) => setFlights(response.data))
       .catch((error) => console.error("Error fetching flights:", error));
   }, []);
@@ -21,7 +21,7 @@ const FlightStatusManagement = () => {
       const updatedStatus = { status };
   
       axios
-        .put(`http://localhost:5000/api/flights/${selectedFlight._id}`, updatedStatus)
+        .put(`127.0.0.1/api/flights/${selectedFlight._id}`, updatedStatus)
         .then(() => {
           setUpdateMessage(`Status "${status}" updated for flight ${selectedFlight.flightNumber}.`);
           setSelectedFlight((prev) => ({

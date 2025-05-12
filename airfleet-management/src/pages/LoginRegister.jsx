@@ -27,7 +27,7 @@ const LoginRegister = () => {
 
     try {
       if (isLogin) {
-        const response = await axios.post('http://localhost:5000/api/auth/login', {
+        const response = await axios.post('127.0.0.1/api/auth/login', {
           email: formData.email,
           password: formData.password,
         });
@@ -48,7 +48,7 @@ const LoginRegister = () => {
           setMessage('Access denied. Unauthorized role.');
         }
       } else {
-        const response = await axios.post('http://localhost:5000/api/auth/register', {
+        const response = await axios.post('127.0.0.1/api/auth/register', {
           role: formData.role,
           firstName: formData.firstName,
           lastName: formData.lastName,

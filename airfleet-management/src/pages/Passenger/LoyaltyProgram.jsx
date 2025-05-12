@@ -12,7 +12,7 @@ const LoyaltyProgramTracking = () => {
     if (passengerId) {
       const fetchLoyaltyPoints = async () => {
         try {
-          const response = await axios.get(`http://localhost:5000/api/users/loyalty/${passengerId}`);
+          const response = await axios.get(`127.0.0.1/api/users/loyalty/${passengerId}`);
           setLoyaltyPoints(response.data.points);
         } catch (error) {
           setMessage("Failed to fetch loyalty points. Please try again later.");
@@ -34,7 +34,7 @@ const LoyaltyProgramTracking = () => {
     }
 
     try {
-      const response = await axios.put(`http://localhost:5000/api/users/loyalty/redeem/${passengerId}`);
+      const response = await axios.put(`127.0.0.1/api/users/loyalty/redeem/${passengerId}`);
       setRedeemMessage(response.data.message);
       setLoyaltyPoints(response.data.remainingPoints);
     } catch (error) {

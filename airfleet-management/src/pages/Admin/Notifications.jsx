@@ -13,8 +13,8 @@ const NotificationManagement = () => {
   const [users, setUsers] = useState([]);
   const [selectedUserId, setSelectedUserId] = useState("");
 
-  const apiUrl = "http://localhost:5000/api/notifications";
-  const usersApiUrl = "http://localhost:5000/api/users";
+  const apiUrl = "127.0.0.1/api/notifications";
+  const usersApiUrl = "127.0.0.1/api/users";
 
   useEffect(() => {
     const fetchUsers = async () => {

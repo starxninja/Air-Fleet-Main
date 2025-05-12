@@ -30,7 +30,7 @@ const ProfileUpdate = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:5000/api/crew/getProfile", {
+      const response = await fetch("127.0.0.1/api/crew/getProfile", {
         method: "GET",
         headers: {
           "Authorization": `Bearer ${token}`,
@@ -85,7 +85,7 @@ const ProfileUpdate = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:5000/api/crew/updateProfile", {
+      const response = await fetch("127.0.0.1/api/crew/updateProfile", {
         method: "POST",
         headers: { 
           "Content-Type": "application/json",
